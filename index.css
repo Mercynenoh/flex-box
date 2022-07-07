@@ -1,8 +1,64 @@
-h1{
-    color: royalblue;
-    text-align: center;
+.container {
+  display: flex;
+  /* border: 1px solid #000; */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: flex-start;
 }
-h3{
-    color: royalblue;
-    text-align: center;
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  /* border: 1px solid #000; */
+  align-content: flex-start;
+}
+
+.cards-main {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  flex-wrap: wrap;
+ 
+}
+.inner-card {
+    display: flex;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+
+    
+ }
+.first {
+  height: 350px;
+  width: 350px;
+  border-radius: 8px;
+}
+.second {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+  }
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    color: orange;
+}
+button{
+    height:58px;
+    width: 128px;
+ 
+}
+li{
+    color: black;
 }
