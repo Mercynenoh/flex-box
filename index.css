@@ -38,7 +38,7 @@
   margin-left:5%;
   justify-content: center;
   flex-wrap: wrap;
-  /* border: 1px solid #000; */
+
  
 }
 .profile{
@@ -85,7 +85,9 @@ h4 {
 }
 button {
   height: 58px;
-  width: 128px;
+  width: 150px;
+  font-weight: 700;
+  font-size: x-large;
 }
 li {
   color: black;
